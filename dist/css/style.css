@@ -15,6 +15,7 @@ body {
   clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%);
 }
 
+
 .overlay {
   display: flex;
   flex-wrap: wrap;
@@ -29,11 +30,13 @@ body {
   text-align: center;
 }
 
+
 .site_heading {
   font-size: 100px;
   font-family: "Merienda";
   color: #fff;
   font-weight: bold;
+  
 }
 
 .site_subheading {
