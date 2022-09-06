@@ -6,7 +6,7 @@ Project aims to create SASS_Food_House within html and css.
 
   Project Name       |Libraries and Technologies I use     |How does my project look   
 :-------------------------|-------------------------|-------------------------
-[SASS_Food_House](https://muharremgem.github.io/SASS_Project/)| Html Css Sass |![SASS_Project](img/food_house.gif)
+[SASS_Food_House](https://muharremgem.github.io/SASS_Project/)| Html Css Sass |![SASS_Project](food_house.gif)
 
 
 ## Problem Statement
