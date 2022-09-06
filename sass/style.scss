@@ -96,6 +96,22 @@ h4 {
   text-transform: uppercase;
 }
 
+h5{
+  font-size: 20px;
+  font-weight: 400;
+  color: $primary-color;
+}
+.margin-top{
+  margin-top: 30px;
+}
+.margin-bottom{
+  margin-bottom: 30px;
+}
+
+.margin-both{
+  margin: 30px 0;
+}
+
 .rounded {
   border-radius: 4px;
 }
@@ -145,6 +161,14 @@ figure {
 
 }
 
+.food_footer {
+  padding: 80px 0;
+  background-color: #222;
+  color: $color-white;
+}
+.line-space{
+  line-height: 40px;
+}
 .food_icons {
   display: flex;
   width: 100px;
@@ -236,4 +260,39 @@ figure {
   }
 }
 
- 
+ .brand{
+  font-family: "Merienda";
+
+ }
+
+ .social-icons {
+  display: flex;
+  list-style-type: none;
+
+  li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: $primary-color;
+    margin-right: 20px;
+    transition: 0.6s all;
+
+    &:hover{
+      background-color: $color-white;
+      color: $primary-color;
+    }
+  }
+
+ }
+
+ .list-inline{
+  display: flex;
+  list-style-type: none;
+
+  li {
+    margin-right: 20px;
+  }
+ }  
