@@ -1,0 +1,47 @@
+.brand {
+  font-family: "Merienda";
+}
+
+.margin-bottom {
+  margin-bottom: 30px;
+}
+
+.margin-both {
+  margin: 30px 0;
+}
+
+.rounded {
+  border-radius: 4px;
+}
+
+.color-primary {
+  color: $primary-color;
+}
+.color-white {
+  color: $color-white;
+}
+
+.color-secondary {
+  color: #555;
+}
+
+.line-space {
+  line-height: 40px;
+}
+
+.list-inline {
+    display: flex;
+    list-style-type: none;
+  
+    li {
+      margin-right: 20px;
+    }
+  }
+
+  .line-space {
+    line-height: 40px;
+  }
+
+  .valign_wrapper {
+    text-align: center;
+  }

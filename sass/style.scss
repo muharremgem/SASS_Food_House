@@ -1,70 +1,22 @@
-$primary-color: #689f38;
-$color-white: #fff;
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import "utilities/variables";
+@import "base/reset";
+@import "base/typhography.scss" ;
+@import "base/globals" ;
+@import "utilities/helpers";
 
-body {
-  font-family: "Poppins", sans-serif;
-}
+@import "components/overlay";
+@import "components/social_icons";
 
-.food_header {
-  width: 100%;
-  height: 600px;
-  background-image: url("/img/header.png");
-  clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%);
-}
+@import "layout/header";
+@import "layout/about";
+@import "layout/navbar";
+@import "layout/food_offer";
+@import "layout/menu";
+@import "layout/testimonials";
+@import "layout/footer";
 
-.overlay {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  background-color: rgba($color: #000, $alpha: 0.5);
-}
 
-.valign_wrapper {
-  text-align: center;
-}
 
-.site_heading {
-  font-size: 100px;
-  font-family: "Merienda";
-  color: $color-white;
-  font-weight: bold;
-}
-
-.site_subheading {
-  font-size: 20px;
-  color: #fff;
-  letter-spacing: 6px;
-}
-
-.navbar {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  margin-bottom: auto;
-  background-color: rgba($color: $color-white, $alpha: 0.8);
-  ul {
-    list-style-type: none;
-    display: flex;
-    a {
-      display: block;
-      text-decoration: none;
-      color: #333;
-      padding: 20px;
-
-      &.active {
-        color: $primary-color;
-      }
-    }
-  }
-}
 
 .mb_auto {
   margin-bottom: auto;
@@ -75,224 +27,10 @@ body {
   text-transform: uppercase;
 }
 
-h2 {
-  margin-bottom: 70px;
-  text-transform: uppercase;
-  font-size: 35px;
-  color: #333;
-}
-
-h3{
-  color: #444;
-  font-weight: 35px;
-  font-size: #333;
-  text-transform: uppercase;
-
-}
-h4 {
-  color: #444;
-  font-size: 25px;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-h5{
-  font-size: 20px;
-  font-weight: 400;
-  color: $primary-color;
-}
-.margin-top{
+.margin-top {
   margin-top: 30px;
 }
-.margin-bottom{
-  margin-bottom: 30px;
-}
 
-.margin-both{
-  margin: 30px 0;
-}
 
-.rounded {
-  border-radius: 4px;
-}
 
-.color-primary {
-  color: $primary-color;
-}
-.color-white{
-  color: $color-white;
-}
 
-.color-secondary {
-  color: #555;
-}
-
-.line-space {
-  line-height: 40px;
-}
-
-figure {
-  position: relative;
-  width: 310px;
-  height: 310px;
-
-  img {
-    width: 100%;
-    height: 100%;
-    box-shadow: 0px 0px 10px 2px rgba($color: #000000, $alpha: 0.2);
-  }
-  .back {
-    position: absolute;
-    top: 40px;
-    left: -40px;
-    width: 100%;
-    height: 100%;
-    background-color: $primary-color;
-    z-index: -1;
-  }
-}
-
-.food_about {
-  padding: 80px 0;
-}
-.food_menu{
-
-  padding: 80px 0;
-
-}
-
-.food_footer {
-  padding: 80px 0;
-  background-color: #222;
-  color: $color-white;
-}
-.line-space{
-  line-height: 40px;
-}
-.food_icons {
-  display: flex;
-  width: 100px;
-  height: 100px;
-  background-color: $primary-color;
-  color: $color-white;
-  border-radius: 50%;
-
-  i {
-    font-size: 40px;
-    margin: auto;
-  }
-}
-
-.food_offer {
-  width: 100%;
-  height: 500px;
-  background-image: url(/img/offer.png);
-  color: $color-white;
-
-  &_heading {
-    font-weight: 600;
-    font-size: 50px;
-    text-transform: uppercase;
-  }
-
-  &_subheading {
-    font-weight: 300;
-    letter-spacing: 5px;
-  }
-}
-
-.offer-btn{
-  display: inline-block;
-  text-decoration: none;
-  color: $primary-color;
-  background-color: $color-white;
-  padding: 10px 25px;
-  border-radius: 27px;
-  margin-top: 1rem;
-  transition: 0.4s all;
-  
-  &:hover{
-    background-color: $primary-color;
-    color: $color-white;
-
-  }
-}
-
-.menu{
-  list-style-type: none;
-  &_item{
-    display: flex;
-    justify-content: space-between;
-    color: #707070;
-    line-height: 50px;
-  }
-
-  &_price{
-    color: $primary-color;
-  }
-
-}
-
-.food_testimonial{
-  width: 100%;
-  height: 500px;
-  background-image: url(/img/testimonial.png);
-
-}
-
-.testimonials{
-  width: 800px;
-  background-color: rgba($color: $color-white, $alpha: 0.8);
-  padding: 60px 30px;
-  border-radius: 4px;
-  box-shadow: 0px 0px 10px 3px rgba($color: #000000, $alpha: 0.3);
-
-  &_text{
-    color: #444;
-    line-height: 40px;
-  }
-  &_user{
-    margin-top: 30px;
-    font-size: 30px;
-    font-weight: 400;
-    color: $primary-color;
-
-  }
-}
-
- .brand{
-  font-family: "Merienda";
-
- }
-
- .social-icons {
-  display: flex;
-  list-style-type: none;
-
-  li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    background-color: $primary-color;
-    margin-right: 20px;
-    transition: 0.6s all;
-
-    &:hover{
-      background-color: $color-white;
-      color: $primary-color;
-    }
-  }
-
- }
-
- .list-inline{
-  display: flex;
-  list-style-type: none;
-
-  li {
-    margin-right: 20px;
-  }
- }  
