@@ -4,6 +4,7 @@
 ## Description
 Project aims to create SASS_Food_House within html and css.
 
+
   Project Name       |Libraries and Technologies I use     |How does my project look   
 :-------------------------|-------------------------|-------------------------
 [SASS_Food_House](https://muharremgem.github.io/SASS_Project/)| Html Css Sass |![SASS_Project](food_house.gif)
@@ -15,6 +16,7 @@ Project aims to create SASS_Food_House within html and css.
 ## Project Design
 
 - Figma 
+
 
 ## Project Skeleton 
 
@@ -123,7 +125,7 @@ Functionally create a SASS_Food_House as in the image above
 	- Create a description of your project (id="description")
 	- Create a Scss (id="SASS_Food_House")
 	
-
+	
 >>Part-2 CSS Structure
 	- CSS Display method
 	- CSS justify-content
@@ -157,7 +159,6 @@ Functionally create a SASS_Food_House as in the image above
 
 
 <center> &#8987; Happy Coding  &#9997; </center>
-
 
 
 <br/>
