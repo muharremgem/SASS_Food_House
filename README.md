@@ -2,7 +2,7 @@
 
 
 ## Description
-Project aims to create SASS_Food_House within html and css.
+Project aims to create SASS_Food_House within Html,Css,Sass.
 
 
   Project Name       |Libraries and Technologies I use     |How does my project look   
